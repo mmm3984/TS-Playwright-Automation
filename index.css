@@ -48,6 +48,11 @@ header h1 {
   object-fit: cover; 
 }
 
+.about-gallery img {
+  border-radius: 8px; 
+  object-fit: cover; 
+}
+
 .content p {
   font-size: 1.2rem; 
   font-family: 'Georgia', serif; 
