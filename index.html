@@ -5,6 +5,7 @@
     <title>
         Home Page
     </title>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
@@ -12,19 +13,46 @@
         <h1>Home Page</h1>
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Products</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
                 <li><a href="about.html">About</a></li>
             </ul>
         </nav>
+        <div class="search-container">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
     </header>
 
     <main>
+
         <div>
             <h2>Images</h2>
-            <img src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg" alt="Random Text">
+
+        </div>
+        <div class="gallery">
+            <div>
+                <img src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg" alt="Elephant">
+            </div>
+            <div>
+                <img src="https://cdn.pixabay.com/photo/2018/05/02/12/47/auto-3368565_1280.jpg" alt="Old Car">
+            </div>
+            <div>
+                <img src="https://randomwordgenerator.com/img/picture-generator/train-1728537_640.jpg" alt="Train">
+            </div>
+        </div>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id nunc ut erat mollis tincidunt vel
+                id augue.</p>
+            <p>Phasellus vehicula massa non urna varius, at lobortis nunc consequat. Vivamus laoreet leo urna, in
+                tristique libero vehicula et.</p>
+            <p>Donec mollis, metus et vehicula dignissim, eros lorem facilisis augue, quis tincidunt erat turpis ut sem.
+            </p>
         </div>
     </main>
 </body>
+<footer>
+    <p>&copy; All rights reserved</p>
+</footer>
 
 </html>
