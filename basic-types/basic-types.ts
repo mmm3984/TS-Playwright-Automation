@@ -33,3 +33,9 @@ let isEqualTo: boolean = numOne ===10 && numTwo ===5;
 
 // ternary operator
 let numberComparison: string = numOne> 0? "The Number is positive":"The number is negative"
+
+// Union Types
+let id: string | number;
+
+id = 10
+id = "10"
