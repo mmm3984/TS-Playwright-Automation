@@ -29,3 +29,8 @@ function greeting(name: string, age?:number){
 function substract(numOne: number = 10, numTwo: number=5){
     console.log(numOne - numTwo);
 }
+
+// function with union type parameter
+function printId (id: string | number){
+    console.log(`Id - ${id} is of type ${typeof id}`)
+}
